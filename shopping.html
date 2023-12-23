@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Catalog</title>
+ <link rel="stylesheet" href="shopping.css">
+</head>
+<body>
+
+ <div class="header-container">
+  <img class="imgg" src="https://res.cloudinary.com/learning-platform/image/fetch/dpr_auto,w_auto,f_auto,q_auto/https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC4D0BAQHkIpRPUew_1g%2Fcompany-logo_200_200%2F0%2F1625110501899%3Fe%3D1705536000%26v%3Dbeta%26t%3DWJzTENEx2-0P1QOFFwjSXS7VM5mFTHA0sNrMbM3JLi8" alt="img">
+  <h1>SELECT YOUR CHOICE</h1> 
+</div>
+
+  <div class="btn-center">
+    <button class="category-button" onclick="getProducts('Men')">Men</button>
+    <button class="category-button" onclick="getProducts('Women')">Women</button>
+    <button class="category-button" onclick="getProducts('Kids')">Kids</button>
+   
+  </div>
+
+  <div class="product-container" id="product-container"></div>
+
+  <script src="shopping.js"></script>
+</body>
+</html>
